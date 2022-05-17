@@ -1,24 +1,24 @@
-# Lumen PHP Framework
+# Lumen APi (For Personal Use)
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
+It's just a simple API using Lumen that allow us to integrate data from it.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## You can try thes methods
 
-## Official Documentation
+Show ALL products
+[GET]  http://127.0.0.1:8000/products
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+show Each Products By ID
+[GET]  http://127.0.0.1:8000/products/{id}
 
-## Contributing
+store products
+[POST]  http://127.0.0.1:8000/products/create
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Update products
+[POST]  http://127.0.0.1:8000/products/update/{id}
 
-## Security Vulnerabilities
+Delete
+[DELETE]  http://127.0.0.1:8000/products/delete/{id}
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Hope you will like it.
+Thank you.
